@@ -1,0 +1,19 @@
+{% load static %}
+<script>var hostUrl = "assets/";</script>
+<!--begin::Global Javascript Bundle(mandatory for all pages)-->
+<script src="{% static 'plugins/global/plugins.bundle.js' %}"></script>
+<script src="{% static 'js/scripts.bundle.js' %}"></script>
+<!--end::Global Javascript Bundle-->
+<!--begin::Vendors Javascript(used for this page only)-->
+<script src="{% static 'plugins/custom/datatables/datatables.bundle.js' %}"></script>
+<!--end::Vendors Javascript-->
+<!--begin::Custom Javascript(used for this page only)-->
+<script src="{% static 'js/custom/apps/user-management/users/list/table.js' %}"></script>
+<script src="{% static 'js/custom/apps/user-management/users/list/export-users.js' %}"></script>
+<script src="{% static 'js/custom/apps/user-management/users/list/add.js' %}"></script>
+<script src="{% static 'js/widgets.bundle.js' %}"></script>
+<script src="{% static 'js/custom/widgets.js' %}"></script>
+<script src="{% static 'js/custom/apps/chat/chat.js' %}"></script>
+<script src="{% static 'js/custom/utilities/modals/upgrade-plan.js' %}"></script>
+<script src="{% static 'js/custom/utilities/modals/create-app.js' %}"></script>
+<script src="{% static 'js/custom/utilities/modals/users-search.js' %}"></script>
